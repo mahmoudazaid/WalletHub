@@ -14,5 +14,6 @@ Sample test project using Cucumber, Maven, Junit.
 * open feature file
 * Right click > Run as > Cucumber Feature
 
-#Note:
+# Note:
+
 Please make sure to change the driver path under utilities package > driver.java
