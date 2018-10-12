@@ -7,7 +7,9 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 features = "src/test/java/features/",
-glue= {"StepDefention"}
+glue= {"StepDefention"},
+plugin = { "json:target/cucumber-report/cucumber.json" },
+monochrome = true
 )
 
 public class testrunner {
